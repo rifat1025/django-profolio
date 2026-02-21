@@ -1,0 +1,265 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rifat Sarker — Data Scientist & Backend Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'app/css/style.css' %}">
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Rifat Sarker</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#certificates">Certificates</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-dots"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Available for opportunities</div>
+    <h1 class="hero-name">Hi, I'm<br><span>Rifat Sarker</span></h1>
+    <div class="hero-role">Data Scientist &amp; <strong>Backend Engineer</strong></div>
+    <p class="hero-desc">Building intelligent systems at the intersection of machine learning and scalable backends. I turn complex data into actionable insights and robust APIs.</p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">View My Projects →</a>
+      <a href="#contact" class="btn-outline">Get in Touch</a>
+    </div>
+    <div class="hero-stats">
+      <div><div class="stat-num">5+</div><div class="stat-label">Projects Built</div></div>
+      <div><div class="stat-num">11</div><div class="stat-label">Skills</div></div>
+      <div><div class="stat-num">6+</div><div class="stat-label">Certifications</div></div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-img-card">
+      <img src="{% static 'app/images/profile.jpg' %}" alt="Rifat Sarker" onerror="this.style.display='none';this.parentNode.style.background='linear-gradient(135deg,#dbeafe,#ede9fe)';this.parentNode.innerHTML+='<div style=\'display:flex;align-items:center;justify-content:center;height:100%;font-size:80px;opacity:.4\'>👤</div>'">
+    </div>
+    <div class="hero-chip chip1">🧠 ML Engineer</div>
+    <div class="hero-chip chip2">⚡ Django Expert</div>
+    <div class="hero-chip chip3">🔗 RAG & LLMs</div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div class="reveal-left">
+      <div class="about-img">
+        <img src="{% static 'app/images/profile.jpg'%} " alt="Rifat Sarker" onerror="this.style.display='none';this.parentNode.style.background='linear-gradient(135deg,#dbeafe,#ede9fe)';this.parentNode.style.display='flex';this.parentNode.style.alignItems='center';this.parentNode.style.justifyContent='center';this.parentNode.innerHTML='<span style=\'font-size:100px;opacity:.3\'>👤</span>'">
+      </div>
+    </div>
+    <div class="reveal-right">
+      <div class="sec-label">About Me</div>
+      <h2 class="sec-title">Passionate about<br><span>AI & Data Science</span></h2>
+      <p class="about-text">I'm Rifat Sarker, a Data Scientist and Backend Engineer with a deep passion for building intelligent, data-driven systems. I specialize in designing scalable REST APIs with Django and crafting machine learning pipelines that solve real-world problems.</p>
+      <p class="about-text">From training deep learning models with TensorFlow to building RAG pipelines with LangChain and Ollama, I thrive at the cutting edge of AI engineering.</p>
+      <div class="about-tags">
+        <span class="about-tag">Python</span>
+        <span class="about-tag">Machine Learning</span>
+        <span class="about-tag">Django</span>
+        <span class="about-tag">Deep Learning</span>
+        <span class="about-tag">LangChain</span>
+        <span class="about-tag">RAG</span>
+      </div>
+      <div class="about-meta">
+        <div class="meta-item"><div class="meta-key">Location</div><div class="meta-val">Bangladesh 🇧🇩</div></div>
+        <div class="meta-item"><div class="meta-key">Focus</div><div class="meta-val">AI / ML / Backend</div></div>
+        <div class="meta-item"><div class="meta-key">Languages</div><div class="meta-val">Python, SQL</div></div>
+        <div class="meta-item"><div class="meta-key">Status</div><div class="meta-val" style="color:#16a34a">Open to Work ✓</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="sec-header reveal">
+    <div class="sec-label">Technical Skills</div>
+    <h2 class="sec-title">My <span>Toolkit</span></h2>
+    <p class="sec-desc">Technologies I use to build intelligent, production-ready systems.</p>
+  </div>
+  <div class="skills-grid" id="skillsGrid">
+    <div class="skill-card reveal"><div class="skill-emoji">🐍</div><div class="skill-name">Python</div><div class="skill-bar"><div class="skill-fill" data-w="95"></div></div><div class="skill-pct">Expert · 95%</div></div>
+    <div class="skill-card reveal"><div class="skill-emoji">🌐</div><div class="skill-name">Django</div><div class="skill-bar"><div class="skill-fill" data-w="90"></div></div><div class="skill-pct">Expert · 90%</div></div>
+    <div class="skill-card reveal"><div class="skill-emoji">🔌</div><div class="skill-name">REST API</div><div class="skill-bar"><div class="skill-fill" data-w="90"></div></div><div class="skill-pct">Expert · 90%</div></div>
+    <div class="skill-card reveal"><div class="skill-emoji">🧠</div><div class="skill-name">TensorFlow</div><div class="skill-bar"><div class="skill-fill" data-w="82"></div></div><div class="skill-pct">Advanced · 82%</div></div>
+    <div class="skill-card reveal"><div class="skill-emoji">📊</div><div class="skill-name">Machine Learning</div><div class="skill-bar"><div class="skill-fill" data-w="88"></div></div><div class="skill-pct">Advanced · 88%</div></div>
+    <div class="skill-card reveal"><div class="skill-emoji">🔮</div><div class="skill-name">Deep Learning</div><div class="skill-bar"><div class="skill-fill" data-w="80"></div></div><div class="skill-pct">Advanced · 80%</div></div>
+    <div class="skill-card reveal"><div class="skill-emoji">📚</div><div class="skill-name">RAG Pipelines</div><div class="skill-bar"><div class="skill-fill" data-w="85"></div></div><div class="skill-pct">Advanced · 85%</div></div>
+    <div class="skill-card reveal"><div class="skill-emoji">🔗</div><div class="skill-name">LangChain</div><div class="skill-bar"><div class="skill-fill" data-w="83"></div></div><div class="skill-pct">Advanced · 83%</div></div>
+    <div class="skill-card reveal"><div class="skill-emoji">🦙</div><div class="skill-name">Ollama</div><div class="skill-bar"><div class="skill-fill" data-w="78"></div></div><div class="skill-pct">Proficient · 78%</div></div>
+    <div class="skill-card reveal"><div class="skill-emoji">🤗</div><div class="skill-name">HuggingFace</div><div class="skill-bar"><div class="skill-fill" data-w="82"></div></div><div class="skill-pct">Advanced · 82%</div></div>
+    <div class="skill-card reveal"><div class="skill-emoji">🗄️</div><div class="skill-name">MySQL</div><div class="skill-bar"><div class="skill-fill" data-w="85"></div></div><div class="skill-pct">Advanced · 85%</div></div>
+    <div class="skill-card reveal" style="background:linear-gradient(135deg,#eff6ff,#f5f3ff);border-color:#c7d2fe">
+      <div class="skill-emoji">🚀</div>
+      <div class="skill-name" style="color:var(--accent)">Always Learning</div>
+      <div style="font-size:13px;color:var(--muted);margin-top:6px;line-height:1.6">Constantly exploring new AI frameworks and backend patterns.</div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="sec-header reveal">
+    <div class="sec-label">Portfolio</div>
+    <h2 class="sec-title">Featured <span>Projects</span></h2>
+    <p class="sec-desc">Real-world applications built with AI/ML and scalable backend technologies.</p>
+  </div>
+  <div class="projects-grid">
+    <div class="proj-card reveal">
+      <div class="proj-banner pb1">🤖<div class="proj-overlay"><a href="#" class="proj-btn solid">Live Demo</a><a href="#" class="proj-btn ghost">GitHub</a></div></div>
+      <div class="proj-body">
+        <div class="proj-tags"><span class="ptag pt-blue">LangChain</span><span class="ptag pt-purple">RAG</span><span class="ptag pt-orange">Ollama</span></div>
+        <div class="proj-name">AI Document Q&A System</div>
+        <div class="proj-desc">RAG-powered chatbot that answers questions from custom documents using LangChain, Ollama, and vector embeddings.</div>
+      </div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-banner pb2">📊<div class="proj-overlay"><a href="#" class="proj-btn solid">Live Demo</a><a href="#" class="proj-btn ghost">GitHub</a></div></div>
+      <div class="proj-body">
+        <div class="proj-tags"><span class="ptag pt-blue">Django</span><span class="ptag pt-purple">REST API</span><span class="ptag pt-green">MySQL</span></div>
+        <div class="proj-name">Analytics Dashboard API</div>
+        <div class="proj-desc">Full-featured Django REST backend with JWT auth, filtering, pagination, and real-time analytics endpoints.</div>
+      </div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-banner pb3">🔮<div class="proj-overlay"><a href="#" class="proj-btn solid">Live Demo</a><a href="#" class="proj-btn ghost">GitHub</a></div></div>
+      <div class="proj-body">
+        <div class="proj-tags"><span class="ptag pt-blue">TensorFlow</span><span class="ptag pt-purple">Deep Learning</span></div>
+        <div class="proj-name">Image Classification Model</div>
+        <div class="proj-desc">CNN-based deep learning model for multi-class image classification with 94% accuracy, deployed as REST API.</div>
+      </div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-banner pb4">🤗<div class="proj-overlay"><a href="#" class="proj-btn solid">Live Demo</a><a href="#" class="proj-btn ghost">GitHub</a></div></div>
+      <div class="proj-body">
+        <div class="proj-tags"><span class="ptag pt-purple">HuggingFace</span><span class="ptag pt-orange">NLP</span></div>
+        <div class="proj-name">Sentiment Analysis API</div>
+        <div class="proj-desc">Fine-tuned transformer model for sentiment analysis, wrapped in a production-ready Django REST API.</div>
+      </div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-banner pb5">📈<div class="proj-overlay"><a href="#" class="proj-btn solid">Live Demo</a><a href="#" class="proj-btn ghost">GitHub</a></div></div>
+      <div class="proj-body">
+        <div class="proj-tags"><span class="ptag pt-blue">ML</span><span class="ptag pt-green">Python</span><span class="ptag pt-green">MySQL</span></div>
+        <div class="proj-name">Predictive Analytics Engine</div>
+        <div class="proj-desc">Machine learning pipeline for sales prediction with automated feature engineering and MySQL storage.</div>
+      </div>
+    </div>
+    <div class="proj-card reveal">
+      <div class="proj-banner pb6">🔗<div class="proj-overlay"><a href="#" class="proj-btn solid">Live Demo</a><a href="#" class="proj-btn ghost">GitHub</a></div></div>
+      <div class="proj-body">
+        <div class="proj-tags"><span class="ptag pt-blue">LangChain</span><span class="ptag pt-purple">Django</span><span class="ptag pt-orange">LLM</span></div>
+        <div class="proj-name">LLM-Powered Chatbot</div>
+        <div class="proj-desc">Conversational AI assistant with memory, tool use, and streaming responses built with LangChain and Django.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <div class="sec-header reveal">
+    <div class="sec-label">Education</div>
+    <h2 class="sec-title">Academic <span>Journey</span></h2>
+    <p class="sec-desc">Building a strong foundation in computer science and data science.</p>
+  </div>
+  <div class="edu-wrap">
+    <div class="edu-item reveal">
+      <div class="edu-dot">🎓</div>
+      <div class="edu-card">
+        <div class="edu-year">2022 — Present</div>
+        <div class="edu-degree">B.Sc. in Computer Science & Engineering</div>
+        <div class="edu-school">City University of Bangladesh</div>
+        <div class="edu-desc">Focused on algorithms, data structures, machine learning, and software engineering. Coursework includes AI, database systems, and distributed computing.</div>
+      </div>
+    </div>
+    <div class="edu-item reveal">
+      <div class="edu-dot">📚</div>
+      <div class="edu-card">
+        <div class="edu-year">2019 — 2021</div>
+        <div class="edu-degree">Higher Secondary Certificate (HSC)</div>
+        <div class="edu-school">Palash Shilpanchal Government College</div>
+        <div class="edu-desc">Science group with focus on mathematics, physics, and chemistry. Developed strong analytical thinking and problem-solving skills.</div>
+      </div>
+    </div>
+   
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates">
+  <div class="sec-header reveal">
+    <div class="sec-label">Certifications</div>
+    <h2 class="sec-title">Earned <span>Credentials</span></h2>
+    <p class="sec-desc">Validated expertise through industry-recognized certifications.</p>
+  </div>
+  <div class="cert-grid">
+    <div class="cert-card reveal"><div class="cert-icon">🧠</div><div class="cert-platform">Coursera · DeepLearning.AI</div><div class="cert-name">Machine Learning Specialization</div><div class="cert-date">Completed 2023</div><div class="cert-badge">✓ Verified</div></div>
+    <div class="cert-card reveal"><div class="cert-icon">🔮</div><div class="cert-platform">Coursera · DeepLearning.AI</div><div class="cert-name">Deep Learning Specialization</div><div class="cert-date">Completed 2023</div><div class="cert-badge">✓ Verified</div></div>
+    <div class="cert-card reveal"><div class="cert-icon">🤗</div><div class="cert-platform">HuggingFace</div><div class="cert-name">NLP with Transformers</div><div class="cert-date">Completed 2024</div><div class="cert-badge">✓ Verified</div></div>
+    <div class="cert-card reveal"><div class="cert-icon">🌐</div><div class="cert-platform">Udemy</div><div class="cert-name">Django REST Framework — Complete Guide</div><div class="cert-date">Completed 2022</div><div class="cert-badge">✓ Verified</div></div>
+    <div class="cert-card reveal"><div class="cert-icon">🗄️</div><div class="cert-platform">MySQL · Oracle</div><div class="cert-name">MySQL Database Developer</div><div class="cert-date">Completed 2022</div><div class="cert-badge">✓ Verified</div></div>
+    <div class="cert-card reveal"><div class="cert-icon">🔗</div><div class="cert-platform">LangChain Academy</div><div class="cert-name">LangChain & LLM Applications</div><div class="cert-date">Completed 2024</div><div class="cert-badge">✓ Verified</div></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="sec-header reveal">
+    <div class="sec-label">Contact</div>
+    <h2 class="sec-title">Let's <span>Connect</span></h2>
+    <p class="sec-desc">Have a project in mind or want to collaborate? I'd love to hear from you.</p>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info-items reveal-left">
+      <div class="contact-item"><div class="c-icon">📧</div><div><div class="c-label">Email</div><div class="c-val"><a href="mailto:rifatsarker.tech@gmail.com">rifatsarker.tech@gmail.com</a></div></div></div>
+      <div class="contact-item"><div class="c-icon">📍</div><div><div class="c-label">Location</div><div class="c-val">Dhaka, Bangladesh 🇧🇩</div></div></div>
+      <div class="contact-item"><div class="c-icon">💼</div><div><div class="c-label">LinkedIn</div><div class="c-val"><a href="https://www.linkedin.com/in/rifat-sarker-tech">linkedin.com/in/rifatsarker</a></div></div></div>
+      <div class="contact-item"><div class="c-icon">🐙</div><div><div class="c-label">GitHub</div><div class="c-val"><a href="https://github.com/rifat1025">https://github.com/rifat1025</a></div></div></div>
+    </div>
+    <div class="reveal-right">
+      <div class="contact-form">
+
+        <form method="POST">
+            {% csrf_token %}
+        <div class="form-row">
+          <div class="form-group"><label class="form-label">Your Name</label><input type="text" name='name' class="form-input" placeholder="John Doe"></div>
+          <div class="form-group"><label class="form-label">Email</label><input type="email" name='email' class="form-input" placeholder="john@example.com"></div>
+        </div>
+        <div class="form-group"><label class="form-label">Subject</label><input type="text" name='subject' class="form-input" placeholder="Project collaboration"></div>
+        <div class="form-group"><label class="form-label">Message</label><textarea name='message' class="form-textarea" placeholder="Tell me about your project or opportunity..."></textarea></div>
+        <button class="btn-send" onclick="this.textContent='Message Sent! ✓';this.style.background='#16a34a'">Send Message →</button>
+       </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Rifat Sarker</div>
+  <div class="footer-copy">© 2025 Rifat Sarker · Data Scientist & Backend Engineer · Bangladesh</div>
+  <div class="footer-links">
+    <a href="#" class="footer-link" title="GitHub">🐙</a>
+    <a href="#" class="footer-link" title="LinkedIn">💼</a>
+    <a href="#" class="footer-link" title="Email">📧</a>
+  </div>
+</footer>
+<script src="{% static 'app/js/index.js' %}"></script>
+</body>
+</html>
