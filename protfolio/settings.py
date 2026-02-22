@@ -120,8 +120,7 @@ USE_TZ = True
 import os 
 
 # At the end of file. add these lines
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
+STATIC_ROOT = BASE_DIR / "staticfiles"
 MEDIA_URLS ='/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
