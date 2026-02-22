@@ -1,4 +1,4 @@
-django==5.2.11
-pillow==12.1.1
-
-
+Django==5.2.11
+gunicorn==25.1.0
+whitenoise==6.11.0
+psycopg2-binary==2.9.11
